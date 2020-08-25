@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+
+
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+
+/* -----------------------------------------MYNAVBAR------------------------------- */
+
+#mynavbar {
+    background-image: linear-gradient(to left, #fdc985, #091D2C);
+    position: fixed;
+    width: 100%;
+
+    z-index: 10;
+}
+
+.navbar {
+
+
+
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.999em;
+
+
+}
+
+
+
+.navbar-nav {
+    padding: 0rem 5rem;
+
+}
+
+.nav-item {
+    padding-left: 3vh;
+
+}
+
+.navbar-nav a {
+
+    color: #fff !important;
+    float: right;
+    text-align: left;
+    padding: 2vh 6vh;
+}
+
+.navbar-nav a:hover {
+    transition-duration: 0.6s;
+    background-color: #091D2C;
+    border-top-right-radius: 30%;
+    color: #fff;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+
+
+
+
+}
+
+.active {
+    background-color: #091D2C;
+    color: #fff;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+.fa-bars {
+    color: #091D2C;
+    font-size: 25px !important;
+
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: none !important;
+
+}
+
+/* ----------------------------------------------CLOSE MYNAVBAR--------------------------------------- */
+
+
+
+/*----------------------------------------------BANNER------------------------------------------*/
+#banner {
+    background-image: linear-gradient(to left, #fdc985, #091D2C);
+
+
+}
+
+
+#banner h1 {
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    margin-top: 7rem;
+
+}
+
+#banner .techF {
+    font-family: 'Lemonada', cursive;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #fdc985;
+}
+
+#banner p {
+    color: #fff;
+
+}
+
+.Nstyle {
+    font-size: 2em;
+    color: #fdc985;
+    font-weight: bold;
+}
+
+.btn {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fdc985;
+    padding: 17px 60px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+.btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #091D2C;
+
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+
+
+.bannerimage {
+    padding: 0em 0em;
+    margin-top: 7rem;
+    margin-bottom: 0rem;
+
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+/* ---------------------------------------------------CLOSE BANNER------------------------------------- */
+
+
+
+
+/*-------------------------------------------------------ABOUT US-------------------------------------*/
+#about-us {
+
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.about-image {
+    margin-top: 5rem;
+    width: 100%;
+
+
+}
+
+.about-title {
+    font-size: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #091D2C;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5rem;
+
+
+}
+
+.txt-d {
+    color: #fdc985;
+}
+
+#about-us p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #091D2C;
+    font-weight: bold;
+}
+
+/* -------------------------------------------CLOSE ABOUT------------------------------------------ */
+
+
+
+/*---------------------------------------SERVICES---------------------------------------------------*/
+#services {
+    padding: 25px;
+
+
+
+}
+
+
+.services-title {
+    font-size: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #091D2C;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+
+#services p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #091D2C;
+    font-weight: bold;
+    text-align: center;
+}
+
+#services h3 {
+    color: #091D2C;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.service-card {
+    padding: 20px;
+
+
+}
+
+/* -------------------------------------CLOSE SERVICES--------------------------- */
+
+
+
+/* ---------------------------------------------SOCIAL MEDIA ICONS------------------------- */
+.social-media {
+    margin-top: 0.5rem;
+    padding: 50px 0px;
+    background: linear-gradient(-180deg, #d6d5d5, #eceaea, #d6d5d5, #eceaea, );
+
+
+
+}
+
+
+
+.social-icon {
+    padding: 2px 2px;
+
+}
+
+.social-icon h3 {
+    color: #091D2C;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.txt-w {
+    color: #f4b057;
+}
+
+.social-icon a {
+
+
+    color: #091D2C;
+    text-decoration: none;
+    margin-left: 0.4em;
+
+
+
+}
+
+.social-icon a:hover i {
+
+
+    transform: translateY(-5px);
+    color: #091D2C;
+    transition-duration: 0.5s;
+
+
+
+}
+
+/* --------------------------------CLOSE SOCIAL ICONS------------------------------------ */
+
+
+
+/* 
+-----------------------------------FOOTER------------------------------------------ */
+
+
+#footer {
+    background: linear-gradient(-45deg, #fdc985, #091D2C, #fbd7a9, #142838);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.spin {
+
+
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#footer {
+
+    padding: 50px 50px;
+    color: white;
+
+}
+
+#footer h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#footer p {
+    margin-top: 1rem;
+
+}
+
+.contact p {
+    font-size: 15px;
+
+
+}
+
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    background-color: #fdc985;
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border-radius: 50%;
+
+    outline: none;
+    /* Remove outline */
+
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+
+}
+
+#myBtn:hover {
+    transform: translateY(-5px);
+    color: #091D2C;
+    transition-duration: 0.5s;
+}
+
+
+
+/* -------------------------------------------CLOSE FOOTER------------------------------------- */
